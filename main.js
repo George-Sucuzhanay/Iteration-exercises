@@ -5,7 +5,7 @@ function covertToString(arr){
     let arrOfString = arr.map(String);
     return arrOfString
 }
-console.log(covertToString([1,2,3,4,5]))
+// console.log(covertToString([1,2,3,4,5]))
 
 //Exercise #2
 //You must use forEach for this exercise
@@ -17,7 +17,7 @@ function doubleValue(arr){
     arr.forEach(element => newArr.push(element * 2))
     return newArr
   }
-console.log(doubleValue([1,2,3,4,5]))
+// console.log(doubleValue([1,2,3,4,5]))
 
 //Exercise #3
 //Write a function called firstAndLast which accepts
@@ -34,7 +34,8 @@ function firstAndLast(arr){
     })
     return newArr
   }
-console.log(firstAndLast(['winning', 'tomato']))
+// console.log(firstAndLast(['winning', 'tomato']))
+
 //Bonus:
 //Write a for loop that outputs this:
 // 1 1 1 2 2 2 3 3 3 4 4 4
@@ -44,4 +45,11 @@ function loop(){
     myArr.forEach(element => newArr.push(element, element, element))
     return newArr
   }
-console.log(loop())
+// console.log(loop())
+
+// Another example of the bonus exercise
+for(let i = 1; i < 5; i++){
+  for(let j = 0; j < 3; j++){
+    console.log(i)
+  }
+}
